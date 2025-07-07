@@ -19,3 +19,5 @@ __pycache__/
 *.net
 *.cir
 *.out
+
+fp-info-cache
