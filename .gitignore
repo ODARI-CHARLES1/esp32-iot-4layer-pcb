@@ -1,0 +1,21 @@
+# KiCad backups and autosaves
+*.bak
+*.save
+*.tmp
+*.000
+*.log
+*.bck
+*.zip
+./IOT_BASED_PROJECT-backups
+./PROJECT_PCB-backups
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore simulation data
+__pycache__/
+*.raw
+*.net
+*.cir
+*.out
