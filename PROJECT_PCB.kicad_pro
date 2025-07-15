@@ -612,6 +612,10 @@
     [
       "cd744ce3-b5f7-4fbf-afc5-dbe11b3dff46",
       "Root"
+    ],
+    [
+      "518efac9-96a8-48c7-b95b-183eb56d8655",
+      "Esp32-C3-02"
     ]
   ],
   "text_variables": {}
