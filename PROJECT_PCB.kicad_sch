@@ -4138,7 +4138,7 @@
 	)
 	(text "LIP0 BAT CHARGER\n"
 		(exclude_from_sim no)
-		(at 169.672 19.812 0)
+		(at 171.45 19.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4227,6 +4227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22d5fef9-3e6a-4080-a958-8f4e3b0c16dd")
+	)
+	(junction
+		(at 22.86 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "336a808f-6413-45fc-b2bc-ae9cfee399ea")
 	)
 	(junction
 		(at 265.43 81.28)
@@ -5491,6 +5497,16 @@
 			(type default)
 		)
 		(uuid "f4cb8927-f1fb-40bd-9c89-91ad77c3012c")
+	)
+	(wire
+		(pts
+			(xy 22.86 97.79) (xy 22.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab513a6-b224-420f-a2a4-5e62b763067e")
 	)
 	(wire
 		(pts
@@ -8019,6 +8035,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "947db79a-a690-4860-ba2b-784b2e1569f3")
+		(property "Reference" "#PWR022"
+			(at 22.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbe02b8d-a708-42f8-8020-08340deb8479")
+		)
+		(instances
+			(project ""
+				(path "/cd744ce3-b5f7-4fbf-afc5-dbe11b3dff46"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 33.02 107.95 0)
 		(unit 1)
@@ -9257,7 +9339,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 2 1.0000)
 		)
 		(uuid "518efac9-96a8-48c7-b95b-183eb56d8655")
 		(property "Sheetname" "Esp32-C3-02"
