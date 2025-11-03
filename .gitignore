@@ -12,7 +12,15 @@
 *.swo
 *.tmp
 *.lock
-*#
+*#,
+
+fp-info-cache
+# KiCad autosave files
+# (temporary recovery files created automatically)
+#autosave*
+_autosave-*
+*_autosave-*
+
 # Backup and autosave files
 *.kicad_pcb-bak
 *.kicad_sch-bak
