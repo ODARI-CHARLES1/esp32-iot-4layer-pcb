@@ -4700,6 +4700,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 138.43) (xy 252.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5f266c-7f6b-4ddf-9e2f-aa5a10cbe57c")
+	)
+	(wire
+		(pts
 			(xy 87.63 63.5) (xy 87.63 67.31)
 		)
 		(stroke
@@ -5380,6 +5390,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 142.24) (xy 252.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3a1506-c4b2-4859-9ea4-4f1821926a4f")
+	)
+	(wire
+		(pts
 			(xy 83.82 111.76) (xy 83.82 116.84)
 		)
 		(stroke
@@ -5447,6 +5467,16 @@
 			(type default)
 		)
 		(uuid "e47ab53f-c0a3-41db-8c86-85e939cf962a")
+	)
+	(wire
+		(pts
+			(xy 247.65 146.05) (xy 254 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb527c64-5869-4f79-8266-bca3a6616c36")
 	)
 	(wire
 		(pts
@@ -5528,6 +5558,16 @@
 		)
 		(uuid "0b49250c-97db-461f-9501-f2546d9cad70")
 	)
+	(label "VBUS"
+		(at 254 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23ac5969-a953-4a90-90a7-fd0f8e46b36c")
+	)
 	(label "USB_DN"
 		(at 74.93 45.72 0)
 		(effects
@@ -5569,6 +5609,16 @@
 		(uuid "6c5179ab-996a-4989-984b-246eb28d1331")
 	)
 	(label "USB_DP"
+		(at 252.73 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7771cb05-7494-4384-9c78-9b3c2c493a83")
+	)
+	(label "USB_DP"
 		(at 74.93 43.18 0)
 		(effects
 			(font
@@ -5597,6 +5647,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0d49ac3-8eaa-48df-ac92-3b42a37800a8")
+	)
+	(label "USB_DN"
+		(at 252.73 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2be5fbd-b896-4e65-b04d-5c20e743ae1b")
 	)
 	(label "USB_DP"
 		(at 26.67 43.18 0)
@@ -9339,7 +9399,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 2 1.0000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "518efac9-96a8-48c7-b95b-183eb56d8655")
 		(property "Sheetname" "Esp32-C3-02"
@@ -9358,6 +9418,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 247.65 138.43 0)
+			(uuid "b0ccc268-41bf-41ca-9ec3-2f159af3c842")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 247.65 142.24 0)
+			(uuid "eefa0605-f342-4cba-a02a-d738139fcff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 247.65 146.05 0)
+			(uuid "4d1bac3d-0061-4f86-b2a8-e86ca195360a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
