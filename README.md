@@ -4,6 +4,8 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 
 ---
 
+![1762171848799](image/README/1762171848799.png)
+
 ## Project Overview
 
 - **Microcontroller:** ESP32-WROOM-32 (or compatible module)
@@ -24,13 +26,12 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 
 ---
 
-
 ---
 
-##  Work in Progress
+## Work in Progress
 
-- [x] Schematic capture
-- [x] 4-layer stackup definition
+- [X] Schematic capture
+- [X] 4-layer stackup definition
 - [ ] Final PCB layout
 - [ ] DRC/clearance verification
 - [ ] Gerber export and fabrication
@@ -38,7 +39,7 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 
 ---
 
-##  Getting Started
+## Getting Started
 
 1. Open the project in **KiCad v6 or later**
 2. Explore `*.kicad_sch` and `*.kicad_pcb` files
@@ -48,7 +49,7 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 
 ---
 
-##  Previews
+## Previews
 
 _3D renders, board stackup diagrams, or layout screenshots can go here_
 
@@ -56,14 +57,14 @@ _3D renders, board stackup diagrams, or layout screenshots can go here_
 
 ## License
 
-This project is open source under the **MIT License** (or specify yours).  
+This project is open source under the **MIT License** (or specify yours).
 Feel free to use, modify, and contribute.
 
 ---
 
 ## Contributions
 
-Issues, suggestions, and pull requests are welcome!  
+Issues, suggestions, and pull requests are welcome!
 If you'd like to contribute hardware improvements, please fork and submit a PR.
 
 ---
@@ -72,12 +73,7 @@ If you'd like to contribute hardware improvements, please fork and submit a PR.
 
 Questions or feedback? Reach out via GitHub Issues or email: `daymondodari68@gmail.com`
 
-
-[![GitHub followers](https://img.shields.io/github/followers/CharlesOdari?label=Follow&style=social)](https://github.com/ODARI-CHARLES1)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-blue?logo=google-chrome)](https://charles.k.odari.portfolio.thegtm.or.ke/)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://ke.linkedin.com/in/odari-kibisi-charles-329b19331)  
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:daymondodari68@gmail.com)  
-
-
-
-
+[![GitHub followers](https://img.shields.io/github/followers/CharlesOdari?label=Follow&style=social)](https://github.com/ODARI-CHARLES1)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-blue?logo=google-chrome)](https://charles.k.odari.portfolio.thegtm.or.ke/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://ke.linkedin.com/in/odari-kibisi-charles-329b19331)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:daymondodari68@gmail.com)
