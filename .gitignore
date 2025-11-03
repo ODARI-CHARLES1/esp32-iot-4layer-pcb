@@ -1,23 +1,125 @@
-# KiCad backups and autosaves
-*.bak
-*.save
-*.tmp
-*.000
-*.log
-*.bck
-*.zip
-./IOT_BASED_PROJECT-backups
-./PROJECT_PCB-backups
+#-----------------------------------------------------
+# KiCad Project Ignore File
+# Works for KiCad 5, 6, and 7
+#-----------------------------------------------------
 
-# OS files
+# Temporary files
+*.bak
+*.bck
+*.tmp
+*~
+*.swp
+*.swo
+*.tmp
+*.lock
+*#
+# Backup and autosave files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.brd-bak
+*.bak.*
+_autosave-*
+*.save
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Netlist & intermediate files
+*.net
+*.xml
+*.cmp
+*.dcm
+*.lst
+*.csv
+
+# Gerbers, drill, and fabrication outputs
+*.gbr
+*.ger
+*.gtl
+*.gto
+*.gts
+*.gbl
+*.gbo
+*.gbs
+*.gm*
+*.drl
+*.map
+*.fab
+*.pos
+*.rpt
+*.rep
+*.ipc
+
+# Plot files and PDFs
+*.svg
+*.ps
+*.pdf
+
+# Simulation files
+*.cir
+*.sp
+*.spice
+*.raw
+*.out
+*.log
+
+# 3D model cache
+*.wrl
+*.step
+*.stp
+
+# Project-specific configuration
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+sym-lib-table-old
+fp-lib-table-old
+
+# KiCad-specific user settings
+*.kicad_prl
+*.kicad_wks
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+__pycache__/
+
+# User preferences and environment
+*.pro
+*.kicad_pro-backup
+*.kicad_pro-bak
+
+# Cache libraries (often regenerated)
+*-cache.lib
+*-rescue.lib
+*.dcm
+*.cache
+*.bak
+
+# KiCad 6/7 schematic & PCB cache files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+sym-lib-table-bak
+fp-lib-table-bak
+
+# OS-specific
 .DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Optional: ignore simulation data
+# IDE / Editor-specific
+.vscode/
+.idea/
+*.code-workspace
+
+# Python or plugin related
 __pycache__/
-*.raw
-*.net
-*.cir
-*.out
+*.pyc
+*.pyo
+*.pyd
 
-fp-info-cache
+# Build artifacts
+/build/
+out/
+dist/
