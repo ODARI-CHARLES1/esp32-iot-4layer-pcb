@@ -55,6 +55,26 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 
 ---
 
+## Bill of Materials (BOM)
+
+The complete BOM is available in [`Docs/PROJECT_PCB.csv`](Docs/PROJECT_PCB.csv). This file contains all components required for the PCB assembly, including quantities, values, footprints, and datasheets.
+
+Key components include:
+- **ESP32-C3-WROOM-02**: Main microcontroller module
+- **CP2102N**: USB-to-UART bridge for programming
+- **MCP73871**: Battery charging IC
+- **W25Q16JVSS**: 16MB flash memory
+- Various capacitors, resistors, LEDs, and connectors
+
+---
+
+## Documentation
+
+- **Schematic PDF**: [`Docs/schematic.pdf`](Docs/schematic.pdf)
+- **KiCad Project Files**: See `.kicad_sch` and `.kicad_pcb` files in the repository
+
+---
+
 ## Previews
 
 _3D renders, board stackup diagrams, or layout screenshots can go here_
