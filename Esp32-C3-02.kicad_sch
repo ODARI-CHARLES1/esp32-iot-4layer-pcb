@@ -3410,7 +3410,7 @@
 		(uuid 3d091f4a-9267-4c50-855f-b68b52b9d734)
 	)
 	(rectangle
-		(start 167.386 113.03)
+		(start 171.196 113.03)
 		(end 203.454 163.322)
 		(stroke
 			(width 0)
@@ -3787,6 +3787,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.226 142.494) (xy 160.528 142.494)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9bbb4a-8639-4a04-9cad-0fa588f289f3")
+	)
+	(wire
+		(pts
 			(xy 53.086 44.45) (xy 89.916 44.45)
 		)
 		(stroke
@@ -4034,6 +4044,16 @@
 			(type default)
 		)
 		(uuid "32f36741-56e5-4dcc-b040-96c02b972e8f")
+	)
+	(wire
+		(pts
+			(xy 157.226 134.62) (xy 160.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a11239f-8d53-4b4d-bef4-926d1d5eb68f")
 	)
 	(wire
 		(pts
@@ -4657,6 +4677,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.226 138.43) (xy 160.274 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42ed53a-a63c-4590-83fe-b56b44d1ee4b")
+	)
+	(wire
+		(pts
 			(xy 249.174 123.444) (xy 249.174 124.968)
 		)
 		(stroke
@@ -4994,6 +5024,16 @@
 			(type default)
 		)
 		(uuid "e7fd2510-1759-4085-8266-8161ed58f754")
+	)
+	(wire
+		(pts
+			(xy 157.226 130.81) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb95c70a-a626-4d9f-9c21-3b383ebd2719")
 	)
 	(wire
 		(pts
@@ -5479,6 +5519,30 @@
 		)
 		(uuid "385b00c5-7a55-495f-8167-c70c4394db83")
 	)
+	(hierarchical_label "PHOTO_C"
+		(shape input)
+		(at 13.462 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5427df30-7cdf-4773-b65c-0525e078cda0")
+	)
+	(hierarchical_label "MIC_OUT"
+		(shape output)
+		(at 67.564 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "71f6795c-8f29-41d4-961c-03f92db32e57")
+	)
 	(hierarchical_label "USB_DN"
 		(shape input)
 		(at 49.276 98.425 270)
@@ -5490,6 +5554,17 @@
 		)
 		(uuid "7362c3cb-12dc-41cd-bcf9-337e80f2111c")
 	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 160.274 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "819f8b2e-f101-4642-9e65-c934a2d69d1c")
+	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 42.926 90.805 180)
@@ -5500,6 +5575,41 @@
 			(justify right)
 		)
 		(uuid "b0a0f198-5d6c-44ac-93ad-c07cbcbc7764")
+	)
+	(hierarchical_label "MIC_OUT"
+		(shape output)
+		(at 160.02 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bd5fc730-8ec1-406e-bc5b-83a0763eb46d")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 160.528 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf12a3ca-da2e-4a86-ae27-68063c2b3da9")
+	)
+	(hierarchical_label "PHOTO_C"
+		(shape output)
+		(at 160.02 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe6964e3-b174-4e94-9d18-2368c30f2dfe")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9060,6 +9170,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIC_OUT" output
+			(at 157.226 130.81 0)
+			(uuid "8251c1c1-f551-42a7-953e-9d84b629d115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 157.226 138.43 0)
+			(uuid "fb959f69-d988-4722-8d46-7e5a2d1f7861")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 157.226 142.494 0)
+			(uuid "6f85a02b-d6dc-4b22-b5b9-40fa9dcff439")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHOTO_C" output
+			(at 157.226 134.62 0)
+			(uuid "c025e52b-5c3a-4c4c-a2e7-a2d4740313a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
