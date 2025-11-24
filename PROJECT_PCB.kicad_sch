@@ -4730,7 +4730,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 107.95) (xy 88.9 111.76)
+			(xy 88.9 109.22) (xy 88.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 102.87) (xy 88.9 99.06)
+			(xy 88.9 104.14) (xy 88.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6261,7 +6261,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 105.41 0)
+		(at 88.9 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +6269,7 @@
 		(dnp no)
 		(uuid "27b294d8-3c51-46f2-a7fc-0318bd88baa8")
 		(property "Reference" "C5"
-			(at 85.09 103.378 0)
+			(at 85.09 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6278,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 83.312 101.346 0)
+			(at 83.312 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 105.41 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 105.41 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 88.9 105.41 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9247,7 @@
 		(dnp no)
 		(uuid "fa7fc6fd-8581-4cad-bd88-f95590f07153")
 		(property "Reference" "C4"
-			(at 74.168 104.394 0)
+			(at 75.692 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9392,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "518efac9-96a8-48c7-b95b-183eb56d8655")
-		(property "Sheetname" "Esp32-C3-02"
+		(property "Sheetname" "MCU_sheet"
 			(at 214.63 135.1784 0)
 			(effects
 				(font
