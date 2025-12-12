@@ -2,6 +2,8 @@
 
 This project focuses on the design and development of a **4-layer PCB** for an **ESP32-based IoT device**. The goal is to create a compact, robust, and EMI-optimized PCB layout suitable for IoT applications.
 
+![1765519936922](image/README/1765519936922.png)
+
 ---
 
 ###### Power Management
@@ -60,6 +62,7 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 The complete BOM is available in [`Docs/PROJECT_PCB.csv`](Docs/PROJECT_PCB.csv). This file contains all components required for the PCB assembly, including quantities, values, footprints, and datasheets.
 
 Key components include:
+
 - **ESP32-C3-WROOM-02**: Main microcontroller module
 - **CP2102N**: USB-to-UART bridge for programming
 - **MCP73871**: Battery charging IC
