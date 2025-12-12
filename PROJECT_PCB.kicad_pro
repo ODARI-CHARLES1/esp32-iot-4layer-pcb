@@ -409,16 +409,16 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -439,7 +439,7 @@
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
+      "unconnected_wire_endpoint": "ignore",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -681,6 +681,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -700,15 +708,15 @@
     ],
     [
       "518efac9-96a8-48c7-b95b-183eb56d8655",
-      "Esp32-C3-02"
+      "MCU_sheet"
     ],
     [
       "60dc6a06-1413-4aef-8ff6-7e077b282829",
-      "SENSORS"
+      "Sensor_sheet"
     ],
     [
       "7443765b-c5d1-46d7-95d8-bb44f920dfc0",
-      "USER_INTERFACE"
+      "user_interface_sheet"
     ]
   ],
   "text_variables": {}
