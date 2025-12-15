@@ -2775,7 +2775,7 @@
 		(fields_autoplaced yes)
 		(uuid "076268ec-0861-49b1-b0a3-a4669f9ba34f")
 		(property "Reference" "Q1"
-			(at 145.0594 45.466 90)
+			(at 145.0594 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,14 +2783,14 @@
 			)
 		)
 		(property "Value" "TEMT6000X01"
-			(at 145.0594 48.006 90)
+			(at 145.0594 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
+		(property "Footprint" "FootPrints:TRANS_TEMT6000X01"
 			(at 145.034 53.594 0)
 			(effects
 				(font
@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX4466EXK:SOT65P210X110-5N"
+		(property "Footprint" "FootPrints:SOT65P210X110-5N"
 			(at 92.456 132.334 0)
 			(effects
 				(font
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "FootPrints:CUI_CMC-5042PF-AC"
 			(at 26.67 132.334 0)
 			(effects
 				(font

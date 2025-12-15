@@ -3862,7 +3862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "FootPrints:SW_USLPT2819DT2TR"
 			(at 146.304 50.8 0)
 			(effects
 				(font
@@ -4047,7 +4047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "FootPrints:SW_USLPT2819DT2TR"
 			(at 208.28 50.8 0)
 			(effects
 				(font

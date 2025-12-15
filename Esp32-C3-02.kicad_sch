@@ -5905,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-40_Kemet-Y"
+		(property "Footprint" "FootPrints:CAPMP3216X180N"
 			(at 63.881 29.5148 0)
 			(effects
 				(font
@@ -6789,7 +6789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "FootPrints:WFQFN-20"
 			(at 124.206 100.965 0)
 			(effects
 				(font
@@ -8041,7 +8041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-40_Kemet-Y"
+		(property "Footprint" "FootPrints:CAPMP3216X180N"
 			(at 263.8552 72.39 0)
 			(effects
 				(font
@@ -8706,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "FootPrints:AMPHENOL_GSD090012SEU"
 			(at 46.228 155.956 0)
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-40_Kemet-Y"
+		(property "Footprint" "FootPrints:CAPMP3216X180N"
 			(at 100.3808 164.338 0)
 			(effects
 				(font

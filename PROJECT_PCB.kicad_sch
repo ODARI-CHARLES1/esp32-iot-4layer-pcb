@@ -6582,7 +6582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:BELFUSE_SS-52400-003"
+		(property "Footprint" "SS-52400-003:BELFUSE_SS-52400-003"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6861,7 +6861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B2B-PH-K-S_LF__SN_:JST_B2B-PH-K-S_LF__SN_"
+		(property "Footprint" "FootPrints:JST_B2B-PH-K-S_LF__SN_"
 			(at 34.29 168.91 0)
 			(effects
 				(font
@@ -7019,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM1117MPX-3.3_NOPB:VREG_LM1117MPX-3.3_NOPB"
+		(property "Footprint" "FootPrints:VREG_LM1117MPX-3.3_NOPB"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -8338,7 +8338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-40_Kemet-Y"
+		(property "Footprint" "FootPrints:CAPMP3216X180N"
 			(at 33.9852 111.76 0)
 			(effects
 				(font
@@ -9623,7 +9623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-40_Kemet-Y"
+		(property "Footprint" "FootPrints:CAPMP3216X180N"
 			(at 79.7052 110.49 0)
 			(effects
 				(font
