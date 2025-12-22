@@ -1765,22 +1765,10 @@
 		(uuid "05022224-e4c3-4ac2-ab36-050179ee21f1")
 	)
 	(junction
-		(at 40.64 129.794)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10354dac-2705-4d3b-baf0-cfc51cd01b7c")
-	)
-	(junction
 		(at 51.816 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "282f0bbc-a05d-4735-9c2a-1002ad2349dc")
-	)
-	(junction
-		(at 124.206 139.954)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d103f42-ea08-4507-b540-17ebe259f7b2")
 	)
 	(junction
 		(at 111.506 129.794)
@@ -1813,16 +1801,16 @@
 		(uuid "6386956e-4c13-4443-80eb-1f1521d4eb50")
 	)
 	(junction
+		(at 124.206 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64fe7481-c95f-4d35-b1aa-6963f997b2eb")
+	)
+	(junction
 		(at 92.456 37.084)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67f9acc8-d675-4258-9db2-a11420b85486")
-	)
-	(junction
-		(at 51.816 129.794)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ede2d8f-9133-4b54-89af-54c73fc2f2d1")
 	)
 	(junction
 		(at 40.64 119.888)
@@ -1837,28 +1825,22 @@
 		(uuid "773bcbeb-89dc-4dca-80e2-4f168735b2b1")
 	)
 	(junction
-		(at 124.206 124.714)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bb143b3-b466-4d03-b9e7-4ed590d75751")
-	)
-	(junction
 		(at 73.152 37.084)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88f17d07-dd36-40d8-abfe-15f86d5b8c4a")
 	)
 	(junction
+		(at 52.07 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c5986ae-9429-4858-8441-531976263a77")
+	)
+	(junction
 		(at 70.866 73.152)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9db3d6c3-f898-4331-8c6b-470b9d302c59")
-	)
-	(junction
-		(at 70.866 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f754258-7c9d-4b3e-b35a-0d642cf8f57a")
 	)
 	(junction
 		(at 83.566 149.86)
@@ -1877,6 +1859,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4439d58-643c-42ab-8f98-1617d6a53a31")
+	)
+	(junction
+		(at 124.206 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5e32c1-cc42-4659-af92-285a059b6769")
+	)
+	(junction
+		(at 40.64 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed8cbac2-4616-4715-8b7a-276b542a1660")
 	)
 	(wire
 		(pts
@@ -1920,16 +1914,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 129.794) (xy 51.816 129.794)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f2e649f-d862-48b7-963a-8c785f945969")
-	)
-	(wire
-		(pts
 			(xy 139.954 56.134) (xy 131.826 56.134)
 		)
 		(stroke
@@ -1947,6 +1931,26 @@
 			(type default)
 		)
 		(uuid "10438c5f-4b28-4443-ab6b-ef7fa45048f9")
+	)
+	(wire
+		(pts
+			(xy 49.53 129.54) (xy 52.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153a80e8-9c81-41fc-90bc-dc6252409763")
+	)
+	(wire
+		(pts
+			(xy 40.64 128.27) (xy 40.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c5fa0f-295f-4ddb-8ca1-0331956d3926")
 	)
 	(wire
 		(pts
@@ -2000,13 +2004,13 @@
 	)
 	(wire
 		(pts
-			(xy 51.816 129.794) (xy 74.676 129.794)
+			(xy 52.07 129.54) (xy 52.07 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29f04016-f142-4fa5-89dd-1d59f646aa26")
+		(uuid "2a201f39-39e5-453c-bf60-b02620992e67")
 	)
 	(wire
 		(pts
@@ -2020,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.816 129.794) (xy 51.816 137.668)
+			(xy 52.07 128.27) (xy 52.07 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2050,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 109.22) (xy 51.816 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df298b3-2dca-438f-9f22-af206954bbf4")
+	)
+	(wire
+		(pts
 			(xy 34.29 134.874) (xy 42.672 134.874)
 		)
 		(stroke
@@ -2070,16 +2084,6 @@
 	)
 	(wire
 		(pts
-			(xy 51.816 128.016) (xy 51.816 129.794)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46577a64-26bb-445b-b0d4-26e261395cde")
-	)
-	(wire
-		(pts
 			(xy 55.372 62.484) (xy 51.054 62.484)
 		)
 		(stroke
@@ -2090,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 137.922) (xy 124.206 139.954)
+			(xy 124.206 137.922) (xy 124.206 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2114,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 124.714) (xy 124.206 124.714)
+			(xy 110.49 124.46) (xy 124.206 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2154,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 129.794) (xy 111.506 129.794)
+			(xy 40.64 129.54) (xy 40.64 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be76f4-f1a6-4d93-a6e0-cb5dcfe3b9fe")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 111.506 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 139.954) (xy 124.206 139.954)
+			(xy 110.49 139.7) (xy 124.206 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 105.664) (xy 124.206 124.714)
+			(xy 124.206 105.664) (xy 124.206 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.816 109.22) (xy 51.816 120.396)
+			(xy 52.07 109.22) (xy 52.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2287,6 +2301,26 @@
 			(type default)
 		)
 		(uuid "83705ebe-7c9e-46fd-a3a4-c7833909813a")
+	)
+	(wire
+		(pts
+			(xy 124.206 139.7) (xy 124.206 159.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a29dace-d3a0-49d5-a006-94a392ee927e")
+	)
+	(wire
+		(pts
+			(xy 52.07 130.81) (xy 51.816 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bff7dbe-1733-4800-85e0-d7033bfc5d76")
 	)
 	(wire
 		(pts
@@ -2380,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.866 132.334) (xy 74.676 132.334)
+			(xy 70.866 132.08) (xy 74.93 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2407,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "b9bab4f1-46dd-4183-a01f-41f1271c66bd")
+	)
+	(wire
+		(pts
+			(xy 111.506 129.54) (xy 111.506 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba960d48-6c3e-403c-9384-74b2aaac0536")
 	)
 	(wire
 		(pts
@@ -2440,16 +2484,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.722 149.86) (xy 70.866 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1780541-1ce1-40cf-8c7a-acdb9a2dc9c7")
-	)
-	(wire
-		(pts
 			(xy 131.826 56.134) (xy 131.826 65.278)
 		)
 		(stroke
@@ -2457,6 +2491,26 @@
 			(type default)
 		)
 		(uuid "c7eff701-5b7f-46fd-b062-1f6a1f5518d9")
+	)
+	(wire
+		(pts
+			(xy 52.07 129.54) (xy 74.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca241368-fe90-4686-b622-cdc3dd89ea2e")
+	)
+	(wire
+		(pts
+			(xy 70.866 132.08) (xy 70.866 132.334)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca657f7a-352d-414e-ba9f-5af735f43211")
 	)
 	(wire
 		(pts
@@ -2510,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 124.714) (xy 124.206 130.302)
+			(xy 124.206 124.46) (xy 124.206 130.302)
 		)
 		(stroke
 			(width 0)
@@ -2530,13 +2584,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 128.27) (xy 40.64 129.794)
+			(xy 51.816 130.81) (xy 51.816 137.668)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbfaf221-3165-4da8-9560-d8a7953e15f9")
+		(uuid "ddeec219-bc01-47e2-bae0-1f5b88f68e8d")
 	)
 	(wire
 		(pts
@@ -2550,13 +2604,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 139.954) (xy 124.206 159.512)
+			(xy 40.64 129.54) (xy 41.91 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4fe44a2-aa7c-4831-9a7f-23a46ec4e10f")
+		(uuid "ec02e8b5-cbf1-46c3-b8d2-84a416faaa4e")
 	)
 	(wire
 		(pts
@@ -2696,7 +2750,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 51.816 124.206 0)
+		(at 52.07 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2705,7 +2759,7 @@
 		(fields_autoplaced yes)
 		(uuid "02b8cf2d-dd24-453e-a16e-86f16e2ab8bc")
 		(property "Reference" "R27"
-			(at 53.594 122.9359 0)
+			(at 53.848 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2768,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 53.594 125.4759 0)
+			(at 53.848 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2777,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 50.038 124.206 90)
+			(at 50.292 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 51.816 124.206 0)
+			(at 52.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2795,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 51.816 124.206 0)
+			(at 52.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3407,7 @@
 	)
 	(symbol
 		(lib_id "MAX4466EXK:MAX4466EXK")
-		(at 92.456 132.334 0)
+		(at 92.71 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3362,7 +3416,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cc7ed57-b758-4e46-a8f4-011265f8774c")
 		(property "Reference" "U7"
-			(at 92.456 116.586 0)
+			(at 92.71 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3424,7 @@
 			)
 		)
 		(property "Value" "MAX4466EXK"
-			(at 92.456 119.126 0)
+			(at 92.71 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3432,7 @@
 			)
 		)
 		(property "Footprint" "FootPrints:SOT65P210X110-5N"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3460,7 @@
 			)
 		)
 		(property "MF" "Maxim Integrated Products"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3470,7 @@
 			)
 		)
 		(property "Description_1" "Audio Amp Microphone 1-CH Mono Class-AB 5-Pin SC-70 T/R"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3480,7 @@
 			)
 		)
 		(property "Package" "SC-70-5 Maxim"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3490,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3500,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX4466EXK+T/Maxim+Integrated/view-part/?ref=snap"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3510,7 @@
 			)
 		)
 		(property "MP" "MAX4466EXK+T"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3520,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3530,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MAX4466EXK+T/Maxim+Integrated/view-part/?ref=eda"
-			(at 92.456 132.334 0)
+			(at 92.71 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,6 +4628,73 @@
 			(project "PROJECT_PCB"
 				(path "/cd744ce3-b5f7-4fbf-afc5-dbe11b3dff46/518efac9-96a8-48c7-b95b-183eb56d8655/60dc6a06-1413-4aef-8ff6-7e077b282829"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a47cbf3-2b59-4e12-8afc-0cb427e8224e")
+		(property "Reference" "C17"
+			(at 48.768 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 42.926 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 49.53 128.5748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf1f0f5f-81c2-4f27-a0f9-97e87c7e0c27")
+		)
+		(pin "2"
+			(uuid "768e3967-56e8-4faf-ae0e-1cfb9f085ec6")
+		)
+		(instances
+			(project ""
+				(path "/cd744ce3-b5f7-4fbf-afc5-dbe11b3dff46/518efac9-96a8-48c7-b95b-183eb56d8655/60dc6a06-1413-4aef-8ff6-7e077b282829"
+					(reference "C17")
 					(unit 1)
 				)
 			)
