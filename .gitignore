@@ -58,6 +58,9 @@ _autosave-*
 *.rpt
 *.rep
 *.ipc
+*.gbrjob
+*.gbp
+*.gtp
 
 # Plot files and PDFs
 *.svg
@@ -76,6 +79,11 @@ _autosave-*
 *.wrl
 *.step
 *.stp
+*.kicad_mod
+*.kicad_sym
+
+# FreeRouting files
+*.dsn
 
 # Project-specific configuration
 fp-info-cache
