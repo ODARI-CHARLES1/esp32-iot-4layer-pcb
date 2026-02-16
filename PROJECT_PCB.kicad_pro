@@ -782,7 +782,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "ESP32Project_Gerber",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
