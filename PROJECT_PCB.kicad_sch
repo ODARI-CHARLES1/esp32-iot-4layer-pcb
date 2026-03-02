@@ -6592,7 +6592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cinch.com/media/datasheets/products/ethernet-usb/ds-stw-usb-type-c-connectors.pdf"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6601,7 +6601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Connectors USB Type-C Connector USB 3.1 1 Port Right Angle Receptacle Shielded 0.063 in (1.60mm) PCB Thickness"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6610,17 +6610,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Stewart Connector"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.96 mm"
+		(property "Manufacturer" "Stewart Connector"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6630,7 +6620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Manufacturer part Number" "SS-52400-003"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6640,7 +6630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Distributor Link 1" "https://eu.mouser.com/ProductDetail/Stewart-Connector/SS-52400-003?qs=BJlw7L4Cy78fD9jkh5R%2FCw%3D%3D"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6650,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS-52400-003/Stewart+Connector/view-part/?ref=eda"
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52400-003/11205655?s=N4IgTCBcDaIMpwLQFYwBYAMHFYMwgF0BfIA"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -6660,67 +6650,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A0"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS-52400-003/Stewart+Connector/view-part/?ref=snap"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS-52400-003"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "USB Type-C Connector | USB 3.1 | 1 Port | Right Angle Receptacle | Shielded | 0.063 in (1.60mm) PCB Thickness"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "BelFuse"
+		(property "LCSC" "C6301911"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -7029,7 +6959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lm1117"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -7038,7 +6968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO Voltage Regulators 800MA LDO LINEAR REG A 926-LM1117MP-3.3N A 926-LM1117MP-3.3NOPB"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -7047,43 +6977,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "O"
+		(property "Manufacturer" "Texas Instruments"
 			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendation"
+		(property "Manufacturer part Number" "LM1117MPX-3.3/NOPB"
 			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.80 mm"
+		(property "Distributor Link 1" "https://eu.mouser.com/ProductDetail/Texas-Instruments/LM1117MPX-3.3-NOPB?qs=X1J7HmVL2ZHRbBIxXi4utg%3D%3D"
 			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/LM1117MPX-3-3-NOPB/366733?s=N4IgTCBcDaIDIFkCMKDsCAKANAtAZgDo8B6AOQHkMAhEAXQF8g"
 			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9662"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
