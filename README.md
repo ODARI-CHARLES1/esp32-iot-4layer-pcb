@@ -41,8 +41,8 @@ This project focuses on the design and development of a **4-layer PCB** for an *
 
 - [X] Schematic capture
 - [X] 4-layer stackup definition
-- [ ] Final PCB layout
-- [ ] DRC/clearance verification
+- [x] Final PCB layout
+- [x] DRC/clearance verification
 - [ ] Gerber export and fabrication
 - [ ] Testing and validation
 
